@@ -40,7 +40,7 @@
 								<p>IGNITE</p>
 							</div>
 						</div>
-						<form name="google-sheet">
+						<form name="google-sheet" onsubmit="myFunction()">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
@@ -93,7 +93,12 @@
 			</div>
 		</div>
 	</div>
-
+<script>
+function myFunction() {
+  alert("The form was submitted");
+}
+</script>
+	
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbysl8fg53n7J-UnFVY6MfCoc7kRjlF4YsIqFMGqaBLgnG5Whpf1VHChe2FphNBlhTOtCA/exec'
